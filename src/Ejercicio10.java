@@ -64,6 +64,7 @@ public class Ejercicio10 extends javax.swing.JFrame {
         jLabel3.setText("Monto Total ");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
 
+        txtMontoTotal.setEditable(false);
         txtMontoTotal.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtMontoTotalKeyTyped(evt);
